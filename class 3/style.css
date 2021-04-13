@@ -1,0 +1,27 @@
+.one{
+
+    background-color: aqua;
+    color: black;
+    padding: 15px 30px;
+    margin: 15px 30px;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+}
+#A{
+    background-color: brown;
+    color: cornsilk;
+    padding: 15px 30px;
+    margin: 15px 30px;
+    font-family: 'Anton', sans-serif;
+    text-align:left;
+
+}
+.two{
+    background-color:gold;
+    color: green;
+    padding: 10px 35px;
+    margin: 10px 35px;
+    font-family: 'Pacifico', cursive;
+    text-align:right;
+
+}

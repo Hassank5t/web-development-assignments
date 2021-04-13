@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+div{
+    margin: 20px auto 20px;
+}
+fieldset{
+    background-color: rgb(128, 166, 179);
+    /*background-image: url("./pic.jpg");*/
+    border-radius: 25px;
+}
+legend{
+    padding: 10px;
+    background-color: lightslategray;
+    margin: 10px;
+    border-radius: 5px;
+}
+input{
+     width: 100%;
+     padding: 20px 10px;
+     margin: 10px 0px;
+     box-sizing: border-box;
+     border-radius:15px 50px;
+     cursor:text;
+}
+button{
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer; 
+}
+button:hover{
+    background-color: rgb(122, 158, 213);
+   
+    
+}
