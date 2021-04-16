@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <title>Gallery</title>
+  <style>
+     *{ padding: 0%;
+      margin: 0%;
+    box-sizing: border-box;}
+    body{
+      background-image: url("gb.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .navbar-brand{
+  font-weight: bold;
+  display: block;
+
+}
+.nav-link{
+  font-weight: bold;
+}
+.nav-link:hover{
+  background-color:rgba(0,0,0,0.3);
+}
+h1{
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-size: 35px;
+  color: rgb(242,30,30);
+  background-color: rgba(0,0,0,0.5);
+}
+.photo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ /*  background-color: rgb(255, 183, 0);*/
+ outline: 2px solid black; 
+   margin-top: 10%;
+   
+}
+.photo img {
+ 
+  width: 300px;
+  margin: 20px;
+}
+img:hover{
+  transform: scale(1.1);
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+  <nav class="navbar  fixed-top navbar-expand-lg navbar-dark  p-md-3">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 h1 " href="#">FurnitureHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html" active >Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<h1> Product Gallery</h1>
+<div class="photo">
+  <img src="image/1.jpeg" alt="">
+  <img src="image/2.jpeg" alt="">
+  <img src="image/3.jpeg" alt="">
+<img src="image/4.jpeg" alt="">
+<img src="image/7.jpeg" alt="">
+<img src="image/8.jpeg" alt="">
+</div>
+</body>
+</html>
