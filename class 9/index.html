@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes move {
+            from{
+                background: cadetblue;
+
+                top: 0px;
+            }
+            to{
+                background: chartreuse;
+
+                top: 20px;
+            }
+            
+        }
+    
+        #box{
+            position: relative;
+            width: 600px;
+            background: brown;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+    
+        }
+    </style>
+</head>
+</head>
+<body>
+    <h1>heading1</h1>
+    <div id="box"></div>
+</body>
+</html>

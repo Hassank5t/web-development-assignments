@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div { 
+        position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: brown;
+      animation-name: move;
+      animation-duration:10s;
+      animation-iteration-count: infinite;
+
+    }
+    @keyframes move{
+    0%{background-color: aqua;left: 5px; top: 5px;}
+    10%{background-color: aquamarine;left: 10px; top: 10px;}
+    15%{background-color: blue; left: 30px; top: 30px;}
+    20%{background-color: indigo; left: 45px; top: 45px;}
+    25%{background-color: lawngreen;left: 60px; top: 60px;}
+    50%{background-color: indianred;left 100px; top: 100px;}
+    100% {background-color: black; left:5px; top:5px}
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
